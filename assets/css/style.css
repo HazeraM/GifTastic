@@ -1,0 +1,47 @@
+* {
+    font-family: 'Spicy Rice', cursive;
+}
+
+.jumbotron {
+    background: url('../images/giphylogo.png');
+    background-repeat: no-repeat;
+    background-color: rgb(235, 226, 226);
+    background-position: center;
+    background-size: cover;
+}
+
+.btn {
+    margin-left: 5px;
+    margin-top: 28px;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Spicy Rice', cursive;
+    background-image: linear-gradient(to left, violet, indigo, rgb(139, 139, 230), violet, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: linear-gradient(to left, violet, indigo, rgb(139, 139, 230), violet, yellow, orange, red) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-color: pink !important;
+}
+
+#add-movie {
+    border-color: pink !important;
+    border-radius: .25rem;
+}
+
+#movie-input {
+    border-color: pink !important;
+    border-radius: .25rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
