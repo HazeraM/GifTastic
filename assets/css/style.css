@@ -16,8 +16,6 @@
 }
 
 h1 {
-    font-size: 5em;
-    font-family: 'Spicy Rice', cursive;
     background-image: linear-gradient(to left, violet, indigo, rgb(139, 139, 230), violet, yellow, orange, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -39,6 +37,7 @@ h1 {
 #movie-input {
     border-color: pink !important;
     border-radius: .25rem;
+    color: green;
 }
 
 img {

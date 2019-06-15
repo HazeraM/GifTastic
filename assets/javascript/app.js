@@ -10,7 +10,7 @@ $(document).ready(function() {
 
         // Getting gifs from api... onto html
         $("button").on("click", function() {
-            // console.log('hit')
+            console.log('hit')
             var movie = $(this).attr("data-movie");
             var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
                 movie + "&api_key=V3EKwI54Gd0s6V1Y6IVBsAUGf9APX5Q3&limit=10"
